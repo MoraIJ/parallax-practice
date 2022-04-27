@@ -1,0 +1,47 @@
+.parallax { 
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax-1 {
+    /* The image used */
+    background-image: url("/img/1.jpg");
+    font-family: "water brush";
+ }
+
+  .parallax-2 {
+        /* The image used */
+        background-image: url("/img/3.jpg");
+        font-family: "montserrat";
+    }
+
+  .parallax-3 {
+        /* The image used */
+        background-image: url("/img/adrian-infernus-GLf7bAwCdYg-unsplash.jpg");
+        font-family: "water brush";
+    }
+
+  .parallax-4 {
+        /* The image used */
+        background-image: url("/img/fabrizio-lunardi-EarUtspWMbE-unsplash.jpg");
+        font-family: "montserrat"
+    }
+
+  .parallax-5 {
+        /* The image used */
+        background-image: url("/img/man-adjusts-blue-tuxedo-bowtie_925x_3f05fcc3-0520-4c02-ae2f-a68b97349203.jpg");
+        font-family: "water brush";
+    }
+
+  /*.imgFiveText .imgFourText .imgThreeText .imgTwoText .imgOneText {
+      text-align: center;
+  }*/
